@@ -1,0 +1,93 @@
+
+
+
+.home-decor-section {
+    width: 95%;
+    max-width: 1500px;
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .home-decor-section h2 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    
+  }
+  
+  .home-decor-section p {
+    color: #666;
+    margin-bottom: 20px;
+  }
+  .sect{
+    display: flex;
+  }
+
+  .tag{
+    background-color: #f8e4d3a2;
+   width: 60%;
+    
+  }
+  .Explore{
+    margin-left: 30%;
+  }
+  
+  .cards-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 0.5fr));
+    gap: 50px;
+    margin-left: 35px;
+  }
+  
+  .furnish_card{
+    background-color: #daf0f096;
+    border-radius: 4px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+    width: 350px;
+    height: 400px;
+    
+  }
+  
+  .furnish_card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .furnish_card img {
+    width: 90%;
+    /* width: fit-content; */
+    width: 330px;
+    height: 300px;
+    object-fit: cover;
+  }
+  
+  .card-info {
+    padding: 15px;
+    text-align: center;
+  }
+  
+  .card-info h3 {
+    font-size: 1.2rem;
+    color: #333;
+    margin-bottom: 5px;
+  }
+  
+  .card-info p {
+    color: #666;
+    font-size: 1rem;
+  }
+  
+ 
+  @media (max-width: 768px) {
+    .cards-container {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .cards-container {
+      grid-template-columns: 1fr;
+    }
+  }

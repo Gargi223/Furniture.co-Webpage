@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Furniture.co</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="section1.css">
+  <link rel="stylesheet" href="section2.css">
+  <link rel="stylesheet" href="section 3.css">
+  <link rel="stylesheet" href="section 4 5.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="logo">Furniture.co</div>
+    <ul id="menu">
+      <li><a class="nav_a" href="#home">Home</a></li>
+      <li><a class="nav_a" href="#shop">Shop</a></li>
+      <li><a class="nav_a" href="#contact">Contact</a></li>
+      <li><a class="nav_a" href="#wishlist"><i class="fas fa-heart"></i></a></li>
+      <li><a class="nav_a" href="#cart"><i class="fas fa-shopping-cart"></i></a></li>
+    </ul>
+    <!-- <div class="menu-icon" onclick="toggleMenu()">
+      <i class="fas fa-bars"></i>
+    </div> -->
+
+    <div class="main_box">
+      <input type="checkbox" id="check" />
+      <div class="btn_one">
+        <label for="check">
+          <i class="fa-solid fa-bars"></i>
+        </label>
+      </div>
+
+      <div class="sidebar_menu">
+        <div class="logo">
+          <a href="#">Furniture.co</a>
+        </div>
+
+        <div class="btn_two">
+          <label for="check" style="color: grey">
+            <i class="fa-solid fa-xmark"></i>
+          </label>
+        </div>
+
+        <div class="menu">
+          <ul>
+            <li>
+              <i class="fa-solid fa-image"></i>
+              <a href="#">Categories</a>
+            </li>
+            <li>
+              <i class="fa-solid fa-arrow-up-right-from-square"></i>
+              <a href="#">Festive Offers</a>
+            </li>
+            <li>
+              <i class="fa-solid fa-photo-film"></i>
+              <a href="#">New Arrivals</a>
+            </li>
+            <li>
+              <i class="fa-solid fa-calendar-days"></i>
+              <a href="#">Premium Collections</a>
+            </li>
+            <li>
+              <i class="fa-solid fa-store"></i>
+              <a href="#">Store</a>
+            </li>
+            <li>
+              <i class="fa-solid fa-phone"></i>
+              <a href="#">Contact</a>
+            </li>
+            <li>
+              <i class="fa-regular fa-comments"></i>
+              <a href="#">Feedback</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="social_media">
+          <ul>
+            <a href="#"><i class="fa-brands fa-facebook"></i></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></i></a>
+            <a href="#"><i class="fa-brands fa-youtube"></i></a>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+
+  </nav>
+
+
+<div class="hero-section">
+    <div class="content">
+      <h1>Furnish <br>Your Home<br> With Us</h1>
+      <p> and discover a stunning selection of furniture designed to elevate your space. From timeless pieces to modern styles, we offer quality and comfort for every room in your home.
+      </p>
+      <a href="#" class="strt-button">Get Started Now</a>
+    </div>
+  </div>
+
+
+  
+  <section class="header">
+    <h1>Discover our new premium collection of handcrafted<br> and meticulously designed furniture.</h1>
+    <p>Freshly curated in London, delivered to your door.</p>
+  </section>
+
+ 
+  <section class="gallery">
+    <div class="card-container">
+      <div class="card"><img src="section 1 img/teatable.avif" alt="teatable">
+        </div>
+      <div class="card"><img src="section 1 img/orange couch.avif" alt="couch"></div>
+      <div class="card"><img src="section 1 img/lamp.avif" alt="lamp"></div>
+      <div class="card"><img src="section 1 img/lamp 2.avif" alt="lamp"></div>
+      <div class="card"><img src="section 1 img/dine.avif" alt="dine"></div>
+      <div class="card"><img src="section 1 img/sides.avif" alt="side table"></div>
+      <div class="card"><img src="section 1 img/bedss.avif" alt="bed"></div>
+    
+    </div>
+    <div class="gallery-footer">
+      <a href="#" class="view-gallery">View more categories</a>
+    </div>
+  </section>
+
+  <br>
+  <br>
+  <br>
+  
+  <!-- section1 -->
+  
+  <div class="categories">
+    <button class="category-btn active" data-category="deal">Today's Deal</button>
+    <button class="category-btn" data-category="gifting">Gifting Ideas</button>
+    <button class="category-btn" data-category="budget">Budget Buy</button>
+    <button class="category-btn" data-category="living-room">Living Room</button>
+    <button class="category-btn" data-category="bed-room">Bed Room</button>
+    <button class="category-btn" data-category="dining-room">Dining Room</button>
+    <button class="category-btn" data-category="study-room">Study Room</button>
+    <button class="category-btn" data-category="luxury">Luxury Furniture</button>
+  </div>
+
+  
+  
+  <section class="products">
+    <div class="product-card" data-category="deal">
+      <img src="section 2 img/side tab.avif" alt="Mintwud - side table">
+      <h3>Mintwud - Side Table</h3>
+      <p class="price">₹2,999 <span class="original-price">₹4,999</span> 40% Off</p>
+    </div>
+    <div class="product-card" data-category="living-room">
+      <img src="section 2 img/chair.avif" alt="Timberly - Arm Chair">
+      <h3>Timberly - Chair</h3>
+      <p class="price">₹6,990 <span class="original-price">₹8,999</span> 22% Off</p>
+    </div>
+    <div class="product-card" data-category="budget">
+      <img src="section 2 img/brown chair.avif" alt="Sattva -leather Chair">
+      <h3>Sattva - Leather Chair</h3>
+      <p class="price">₹7,699 <span class="original-price">₹11,999</span> 35% Off</p>
+    </div>
+    <div class="product-card" data-category="bed-room">
+      <img src="section 2 img/vase.avif" alt="Hometown - vase">
+      <h3>Hometown - ceramic Vase</h3>
+      <p class="price">₹1,499 <span class="original-price">₹2,332</span> 35% Off</p>
+    </div>
+
+
+
+    <div class="product-card" data-category="deal">
+      <img src="section 2 img/pillow.avif" alt="pillow">
+      <h3>Homify - Cushions</h3>
+      <p class="price">₹499 <span class="original-price">₹799</span> 37% Off</p>
+    </div>
+    <div class="product-card" data-category="living-room">
+      <img src="section 2 img/frame.avif" alt="frame">
+      <h3>Haven - Wooden Frames</h3>
+      <p class="price">₹790 <span class="original-price">₹999</span> 20% Off</p>
+    </div>
+    <div class="product-card" data-category="budget">
+      <img src="section 2 img/statue.avif" alt="statue">
+      <h3>Furnish - Buddha statue</h3>
+      <p class="price">₹2,699 <span class="original-price">₹3,799</span> 39% Off</p>
+    </div>
+    <div class="product-card" data-category="bed-room">
+      <img src="section 2 img/bowls.avif" alt="bowls">
+      <h3>Hometown - Wooden Cutlary</h3>
+      <p class="price">₹15,999 <span class="original-price">₹21,332</span> 25% Off</p>
+    </div>
+  </section>
+
+
+  <!-- section2 -->
+
+   <section class="slide">
+    <h2 class="head_line">Tailor Your Ambiance by Room Choice <br> Personalize. Select. Inspire.</h2>
+   
+    <br><br>
+   <div class="carousel">
+    <div class="carousel-track">
+      <div class="carousel-slide">
+        <img src="images/living room.jpg" alt="Slide 1">
+        <div class="caption">
+          <h2>Living-room</h2>
+          <p>Details about the first slide</p>
+        </div>
+      </div>
+      <div class="carousel-slide">
+        <img src="images/dining room.jpg" alt="Slide 2">
+        <div class="caption">
+          <h2>Dining-room</h2>
+          <p>Details about the second slide</p>
+        </div>
+      </div>
+      <div class="carousel-slide">
+        <img src="images/bed room.jpg" alt="Slide 3">
+        <div class="caption">
+          <h2>Bed-room</h2>
+          <p>Details about the third slide</p>
+        </div>
+      </div>
+      <div class="carousel-slide">
+        <img src="images/study room.jpg" alt="Slide 4">
+        <div class="caption">
+          <h2>Study-room</h2>
+          <p>Details about the fourth slide</p>
+        </div>
+      </div>
+    </div>
+  </div>
+<br><br><br><br>
+ 
+</section>
+
+    
+<!-- section3 -->
+<section class="home-decor-section">
+  <div class="sect">
+    <div class="tag">
+      <h2>Start Furnishing Your Home Now </h2>
+      <p>Stylish Décor To Brighten Every Festival</p>
+     </div> 
+    <div class="Explore"><h2 style="font-size:18px; text-decoration: underline; padding-top: 40px;">Explore now</h2></div>
+
+  </div>
+  <br><br>
+  <div class="cards-container">
+    <div class="furnish_card">
+      <img src="images/table covers.jpg" alt="Tablecovers">
+      <div class="card-info">
+        <h3>Table covers</h3> 
+        <p>From ₹499</p>
+        <!-- <button class="shop">Explore Now</button> -->
+      </div>
+    </div>
+    <div class="furnish_card">
+      <img src="images/bedsheets.jpg" alt="bedsheets">
+      <div class="card-info">
+        <h3>Premium Bedsheets</h3>
+        <p>From ₹899</p>
+      </div>
+    </div>
+    <div class="furnish_card">
+      <img src="images/curtains.jpg" alt="curtains">
+      <div class="card-info">
+        <h3>Curtains</h3>
+        <p>From ₹799</p>
+      </div>
+    </div>
+    <div class="furnish_card">
+      <img src="images/cushion covers.jpg" alt="cushion covers">
+      <div class="card-info">
+        <h3>Cushion Covers</h3>
+        <p>From ₹299</p>
+      </div>
+    </div>
+
+
+
+
+    <div class="furnish_card">
+      <img src="images/blankets.jpg" alt="blankets">
+      <div class="card-info">
+        <h3>Cosy Blankets</h3>
+        <p>From ₹849</p>
+      </div>
+    </div>
+    <div class="furnish_card">
+      <img src="images/rugs.jpg" alt="rugs ">
+      <div class="card-info">
+        <h3>Rugs and Carpets</h3>
+        <p>From ₹599</p>
+      </div>
+    </div>
+    <div class="furnish_card">
+      <img src="images/sides tables.jpg" alt="side tables">
+      <div class="card-info">
+        <h3>Side Tables </h3>
+        <p>From ₹1299</p>
+      </div>
+    </div>
+    <div class="furnish_card">
+      <img src="images/door mats.jpg" alt="door mats">
+      <div class="card-info">
+        <h3>Door Mats</h3>
+        <p>From ₹299</p>
+      </div>
+    </div>
+
+
+  </div>
+</section>
+
+
+<br><br><br><br>
+
+<!-- section5 -->
+
+<section class="home-decor-section">
+  <div class="sect">
+    <div class="tag">
+      <h2>Decor Items Starting At Just ₹199 </h2>
+      <p>Stylish Décor To Brighten Every Festival</p>
+     </div> 
+    <div class="Explore"><h2 style="font-size:18px; text-decoration: underline; padding-top: 40px;">Explore now</h2></div>
+
+  </div>
+ 
+ <br><br>
+  <div class="cards-container">
+    <div class="furnish_card">
+      <img src="images/clockss.jpg" alt="Wall clocks">
+      <div class="card-info">
+        <h3>Wall Clocks</h3>
+        <p>From ₹299</p>
+      </div>
+    </div>
+    <div class="furnish_card">
+      <img src="images/Glassware.jpg" alt="Glassware">
+      <div class="card-info">
+        <h3>Trending GlassWare</h3>
+        <p>From ₹499</p>
+      </div>
+    </div>
+    <div class="furnish_card">
+      <img src="images/lamps.jpg" alt="Lamps">
+      <div class="card-info">
+        <h3>Lamps</h3>
+        <p>From ₹749</p>
+      </div>
+    </div>
+    <div class="furnish_card">
+      <img src="images/candle.jpg" alt="candle">
+      <div class="card-info">
+        <h3>Scented Candles</h3>
+        <p>From ₹199</p>
+      </div>
+    </div>
+
+
+
+
+    <div class="furnish_card">
+      <img src="images/paintings.jpg" alt="paintings">
+      <div class="card-info">
+        <h3>Wall Paintings</h3>
+        <p>From ₹649</p>
+      </div>
+    </div>
+    <div class="furnish_card">
+      <img src="images/cutlary.jpg" alt="cutlary ">
+      <div class="card-info">
+        <h3>Cutlary</h3>
+        <p>From ₹599</p>
+      </div>
+    </div>
+    <div class="furnish_card">
+      <img src="images/photo frames.jpg" alt="photo frames">
+      <div class="card-info">
+        <h3>Photo Frames</h3>
+        <p>From ₹149</p>
+      </div>
+    </div>
+    <div class="furnish_card">
+      <img src="images/trays.jpg" alt="trays">
+      <div class="card-info">
+        <h3>Serving Trays</h3>
+        <p>From ₹299</p>
+      </div>
+    </div>
+
+
+  </div>
+</section>
+<br><br><br>
+
+<!-- artisan_message -->
+
+<h3 style="text-align: center; font-size: 30px;">Directly from Our Artisan's</h3>
+<br><br><br>
+<div class="artisan">
+  <div>  <img src="section 2 img/art.avif" alt="artisan">
+  </div>
+  <div class="msg"><p>"Every piece we create is more than just furniture; it’s a labor of love,” says one of our artisans. “We put our heart into every curve and joint, treating each item as a work of art.” From selecting the finest, sustainably sourced materials to applying the final hand-finished touches, our goal is to create something truly special for your home. “Craftsmanship is in our blood,” another artisan adds. “We blend time-honored techniques with fresh, contemporary design, so each piece carries both history and modern beauty.” Our artisans are passionate about every detail, from the rich textures to the intricate carvings. “We want you to feel the care and dedication that went into your furniture. Each item tells a story—our story—and becomes a part of your home’s story.” Made with a soul and a purpose, our furniture is designed to last and bring warmth, beauty, and meaning to your living space.</p></div>
+</div>
+<br><br><br><br><br><br>
+
+<!-- Footer -->
+
+<footer class="footer">
+  <div class="footer-container">
+    <div class="footer-section about">
+      <h3>About Us</h3>
+      <p>Discover timeless and elegant furniture designed to bring style and comfort to your home. Crafted with care and a passion for detail, each piece tells a story of quality and artistry.</p>
+    </div>
+    <div class="footer-section links">
+      <h3>Quick Links</h3>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Shop</a></li>
+        <li><a href="#">Gallery</a></li>
+        <li><a href="#">Contact Us</a></li>
+        <li><a href="#">FAQs</a></li>
+      </ul>
+    </div>
+    <div class="footer-section contact">
+      <h3>Contact Us</h3>
+      <p><i class="fa-solid fa-location-dot"></i> 123 Furniture Lane, London, UK</p>
+      <p><i class="fa-solid fa-phone"></i> +44 123 456 7890</p>
+      <p><i class="fa-solid fa-envelope"></i> support@furniture.co.uk</p>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p>&copy; 2024 Furniture.co | All Rights Reserved</p>
+  </div>
+</footer>
+
+
+  
+
+ 
+<script src="script.js"></script>
+</body>
+</html>

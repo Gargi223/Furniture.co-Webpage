@@ -1,0 +1,101 @@
+ /* Header Section */
+ .header {
+    text-align: center;
+    padding: 2rem 1rem;
+    background-color: #f9f3ee;
+    color: #555;
+  }
+  
+  .header h1 {
+    font-size: 1.8rem;
+    margin-bottom: 0.5rem;
+    line-height: 1.5;
+  }
+  
+  .header p {
+    font-size: 1rem;
+    color: #888;
+  }
+  
+  /* Gallery Section */
+  .gallery {
+    padding: 1rem;
+    background-color: #e8e0d8;
+  }
+  
+  .card-container {
+    display: flex;
+    gap: 1rem;
+    overflow-x: auto;
+    padding: 1rem 0;
+    scroll-snap-type: x mandatory;
+    scrollbar-width: none; /* For Firefox */
+  }
+  
+  .card-container::-webkit-scrollbar {
+    display: none; /* For Chrome, Safari, and Edge */
+  }
+
+  
+  
+  .card {
+    flex: 0 0 auto;
+    width: 250px;
+    height: 290px;
+    background-color: #121010;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    scroll-snap-align: center;
+  }
+  .card :hover{
+    opacity: 0.6;
+    
+  }
+  
+  .card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+  }
+  
+  .gallery-footer {
+    text-align: center;
+    margin-top: 1rem;
+  }
+  
+  .view-gallery {
+    text-decoration: none;
+    color: #555;
+    font-size: 1rem;
+    border-bottom: 1px solid #555;
+    padding-bottom: 0.2rem;
+    transition: color 0.3s, border-color 0.3s;
+  }
+  
+  .view-gallery:hover {
+    color: #333;
+    border-color: #333;
+  }
+
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6); /* Semi-transparent background */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 1.2rem;
+    opacity: 0;
+    transition: opacity 0.3s ease; /* Smooth transition */
+  }
+  
+  /* Show overlay on hover */
+  .overlay :hover {
+    opacity: 1;
+  }
